@@ -1,0 +1,161 @@
+@import "./components/reset.scss";
+@import "./components/variables.scss";
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  min-height: 100vh;
+  position: relative;
+}
+
+aside {
+  display: flex;
+  position: absolute;
+  left: -321px;
+  width: 320px;
+  height: 100%;
+  z-index: 100;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px;
+  box-shadow: 2px 0 4px rgba(0,0,0,0.2);
+  background: linear-gradient(180deg, #0099ae 0%, #00bf82 100%);
+  transition: left .2s;
+
+  ul {
+    width: 100%;
+    height: fit-content;
+  }
+
+  li {
+    height: 54px;
+    @include typography(22, 400, 26, #fff);
+  }
+
+  li.active {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+  }
+
+  a {
+    cursor: pointer;
+  } 
+}
+
+aside.opened {
+  display: flex;
+  left: 0;
+}
+
+.main {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 74%;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+  .main-container {
+    max-width: 720px;
+  }
+  
+}
+
+header {
+  height: fit-content;
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    width: 300px;
+  }
+
+   header {
+     position: fixed;
+     top: 0;
+     z-index: 5;
+     width: 300px;
+     background-color: #fff;
+   }
+
+
+   .cards-field {
+     margin-top: 50px;
+     width: 300px;
+   }
+
+   .card-container {
+     width: 300px;
+   }
+
+   .card {
+     width: 100%;
+   }
+
+   aside {
+     position: fixed;
+     top: 0;
+     height: 100vh;
+   }
+}
+
+.btn_login {
+  width: 248px;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn_burger {
+  width: 59px;
+  height: 59px;
+  color: #c8c8c8;
+  font-size: 34px;
+  font-stretch: expanded;
+}
+
+.btn_close {
+  width: 59px;
+  height: 59px;
+  color: #fff;
+  font-size: 50px;
+  font-stretch: expanded;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}

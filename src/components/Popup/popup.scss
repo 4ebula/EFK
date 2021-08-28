@@ -1,0 +1,100 @@
+@import "../variables.scss";
+
+.popup-container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #0000008e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include centered;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff;
+  @include typography(48, 400, 56, #000000cc);
+
+  button {
+    @include typography(22, 400, 26, #fff);
+  }
+
+  h4 {
+    margin-bottom: 49px;
+  }
+
+  h4,
+  input {
+    @include typography(48, 400, 56, #000000cc);
+    
+    &::placeholder {
+      @include typography(36, 400, 56, #00000093);
+    }
+  }
+
+  form {
+    width: 100%;
+
+    .btn-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 130px;
+    }
+
+    input {
+      width: 100%;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #000;
+
+      &:first-of-type {
+        margin-bottom: 78px;
+      }
+    }
+  }
+}
+
+.btn-container {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  @include centered;
+}
+
+.btn {
+
+  &_ok {
+    width: 50px;
+    height: 50px;
+    background-color: #00bf82;
+
+    &:active {
+      box-shadow: inset 1px 1px 5px #000;
+      width: 45px;
+      height: 45px;
+      font-size: 85%;
+    }
+  }
+
+  &_log,
+  &_cancel {
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+  }
+
+  &_log {
+    background-color: $green;
+  }
+
+  &_cancel {
+    background-color: $red;
+  }
+}

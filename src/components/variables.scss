@@ -1,0 +1,17 @@
+@mixin typography($size, $weight, $line, $color: #fff, $space: 0) {
+  font-size: $size * 1px;
+  font-weight: $weight;
+  line-height: $line * 1px;
+  color: $color;
+  letter-spacing: $space * 1px;
+}
+
+@mixin centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$white: #fff;
+$green: #00BF82;
+$red: #e53935;

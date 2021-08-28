@@ -1,0 +1,274 @@
+{
+  "action_a": [
+    {
+      "name": "hug",
+      "rus": "обнять"
+    },
+    {
+      "name": "draw",
+      "rus": "рисовать"
+    },
+    {
+      "name": "cry",
+      "rus": "плакать"
+    },
+    {
+      "name": "dance",
+      "rus": "танцевать"
+    },
+    {
+      "name": "dive",
+      "rus": "нырять"
+    },
+    {
+      "name": "fish",
+      "rus": "рыбачить"
+    },
+    {
+      "name": "fly",
+      "rus": "летать"
+    },
+    {
+      "name": "jump",
+      "rus": "прыгать"
+    }
+  ],
+  "action_b": [
+    {
+    "name": "open",
+    "rus": "открыть"
+    },
+    {
+    "name": "play",
+    "rus": "играть"
+    },
+    {
+    "name": "point",
+    "rus": "указывать"
+    },
+    {
+    "name": "ride",
+    "rus": "ездить"
+    },
+    {
+    "name": "run",
+    "rus": "бегать"
+    },
+    {
+    "name": "sing",
+    "rus": "петь"
+    },
+    {
+    "name": "skip",
+    "rus": "прыгать"
+    },
+    {
+    "name": "swim",
+    "rus": "плавать"
+    }
+  ],
+  "transport": [
+    {
+    "name": "car",
+    "rus": "автомобиль"
+    },
+    {
+    "name": "train",
+    "rus": "поезд"
+    },
+    {
+    "name": "bike",
+    "rus": "мотоцикл"
+    },
+    {
+    "name": "boat",
+    "rus": "лодка"
+    },
+    {
+    "name": "tram",
+    "rus": "трамвай"
+    },
+    {
+    "name": "plane",
+    "rus": "самолет"
+    },
+    {
+    "name": "helicopter",
+    "rus": "вертолет"
+    },
+    {
+    "name": "bus",
+    "rus": "автобус"
+    }
+  ],
+  "emotions": [
+    {
+    "name": "sad",
+    "rus": "грустный"
+    },
+    {
+    "name": "angry",
+    "rus": "злой"
+    },
+    {
+    "name": "happy",
+    "rus": "веселый"
+    },
+    {
+    "name": "tired",
+    "rus": "уставший"
+    },
+    {
+    "name": "surprised",
+    "rus": "удивленный"
+    },
+    {
+    "name": "scared",
+    "rus": "испуганный"
+    },
+    {
+    "name": "smile",
+    "rus": "улыбающийся"
+    },
+    {
+    "name": "laugh",
+    "rus": "смеющийся"
+    }
+  ],
+  "animal_a": [
+    {
+    "name": "dog",
+    "rus": "собака"
+    },
+    {
+    "name": "pig",
+    "rus": "свинья"
+    },
+    {
+    "name": "sheep",
+    "rus": "овца"
+    },
+    {
+    "name": "chick",
+    "rus": "цыпленок"
+    },
+    {
+    "name": "cat",
+    "rus": "кот"
+    },
+    {
+    "name": "chicken",
+    "rus": "курица"
+    },
+    {
+    "name": "rabbit",
+    "rus": "кролик"
+    },
+    {
+    "name": "horse",
+    "rus": "лошадь"
+    }
+  ],
+  "animal_b": [
+    {
+    "name": "lion",
+    "rus": "лев"
+    },
+    {
+    "name": "turtle",
+    "rus": "черепаха"
+    },
+    {
+    "name": "dolphin",
+    "rus": "дельфин"
+    },
+    {
+    "name": "mouse",
+    "rus": "мышь"
+    },
+    {
+    "name": "giraffe",
+    "rus": "жираф"
+    },
+    {
+    "name": "frog",
+    "rus": "лягушка"
+    },
+    {
+    "name": "fish",
+    "rus": "рыба"
+    },
+    {
+    "name": "bird",
+    "rus": "птица"
+    }
+  ],
+  "clothes": [
+    {
+    "name": "pants",
+    "rus": "штаны"
+    },
+    {
+    "name": "dress",
+    "rus": "плать"
+    },
+    {
+    "name": "skirt",
+    "rus": "юбка"
+    },
+    {
+    "name": "boots",
+    "rus": "ботинки"
+    },
+    {
+    "name": "blouse",
+    "rus": "блузка"
+    },
+    {
+    "name": "coat",
+    "rus": "пальто"
+    },
+    {
+    "name": "shoes",
+    "rus": "туфли"
+    },
+    {
+    "name": "shirt",
+    "rus": "рубашка"
+    }
+  ],
+  "fruits": [
+    {
+      "name": "apple",
+      "rus": "яблоко"
+    },
+    {
+      "name": "pear",
+      "rus": "груша"
+    },
+    {
+      "name": "melon",
+      "rus": "дыня"
+    },
+    {
+      "name": "banana",
+      "rus": "банан"
+    },
+    {
+      "name": "lemon",
+      "rus": "лимон"
+    },
+    {
+      "name": "peach",
+      "rus": "персик"
+    },
+    {
+      "name": "pineapple",
+      "rus": "ананас"
+    },
+    {
+      "name": "mango",
+      "rus": "манго"
+    }
+  ]
+}
